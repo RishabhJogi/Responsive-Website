@@ -1,0 +1,66 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                 :root {
+                    --button-bg-color: rgb(234, 70, 43);
+                    --box-sahdow-color: rgba(103, 98, 98, 0.2);
+                }
+                
+                .second-hero-section {
+                    height: 100vh;
+                    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url('../assets/second\ hero\ banner.jpg');
+                    background-size: cover;
+                    /* border: 1px solid red; */
+                    display: flex;
+                    justify-content: end;
+                    align-items: center;
+                }
+                
+                .second-hero-text-section {
+                    /* border: 1px solid white; */
+                    height: auto;
+                    width: auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                }
+                
+                .second-heading-div {
+                    color: white;
+                    font-size: 40px;
+                    font-weight: bold;
+                    width: 60%;
+                    /* text-align: center; */
+                    margin-bottom: 10px;
+                }
+                
+                .second-para-div {
+                    margin-bottom: 10px;
+                    /* border: 1px solid white; */
+                    color: rgb(236, 212, 108);
+                    font-size: 30px;
+                    text-align: center;
+                }
+                
+                .second-hero-section-price-div {
+                    margin-bottom: 10px;
+                    color: var(--button-bg-color);
+                    font-size: 50px;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+                
+                .second-hero-section-button-div button {
+                    margin-bottom: 10px;
+                    background-color: var(--button-bg-color);
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 8px;
+                    font-size: 20px;
+                    font-weight: bold;
+                }

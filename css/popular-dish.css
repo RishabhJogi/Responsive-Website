@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --button-bg-color: rgb(234, 70, 43);
+    --box-sahdow-color: rgba(103, 98, 98, 0.2);
+}
+
+.popular-dish-div {
+    border: 1px solid red
+}
